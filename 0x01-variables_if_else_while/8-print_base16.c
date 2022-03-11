@@ -1,32 +1,19 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
- * * main - prints all the number of base 16 in lowercase,followed by a new line.
- * *
- * * You can only use the putchar function (every other
- * * function (printf, puts, etc…) is forbidden)
- * * All your code should be in the main function
- * * You can only use putchar three times in your code
- * * Return: 0
- * */
-
+ ** main - Entry point
+ **
+ ** Return: Always 0 (Success)
+ */
 int main(void)
 {
-
-	int n;
-	char l;
-
-	for (n = '0'; n <= '9'; n++)
-	{
-		putchar(n);
-	}
-
-	for (l = 'a'; l <= 'f'; l++)
-	{
-		putchar(l);
-	}
-
-	putchar('\n');
-
-	return (0);
+int d;
+char low;
+for (d = '0'; d <= '9'; d++)
+putchar(d);
+for (low = 'a'; low <= 'f'; low++)
+putchar(low);
+putchar('\n');
+return (0);
 }

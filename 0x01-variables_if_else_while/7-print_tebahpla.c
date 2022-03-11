@@ -8,15 +8,15 @@
  *      * All your code should be in the main function
  *       * You can only use putchar twice in your code
  *        * Return: 0
- *         */
+ */
 
 int main(void)
 {
-	int ch;
-	for (ch = 122; ch > 96; ch--)
-	{
-		putchar(ch);
-	}
-	putchar('\n');
-	return (0);
+int ch;
+for (ch = 122; ch > 96; ch--)
+{
+putchar(ch);
+}
+putchar('\n');
+return (0);
 }

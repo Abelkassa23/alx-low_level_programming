@@ -12,15 +12,15 @@
  *        * You can only use putchar twice in your code
  *         * All your code should be in the main function
  *          * Return: 0
- *           */
+ */
 
 int main(void)
 {
-	int n;
-	for (n = '0'; n <= '9'; n++)
-	{
-		putchar(n);
-	}
-	putchar('\n');
-	return (0);
+int n;
+for (n = '0'; n <= '9'; n++)
+{
+putchar(n);
+}
+putchar('\n');
+return (0);
 }
