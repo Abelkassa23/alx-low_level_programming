@@ -1,12 +1,13 @@
-#ifndef DOUBLE_LINKED
-#define DOUBLE_LINKED
+#ifndef LISTS_H
+#define LISTS_H
 
-#include <stdlib.h>
-#include <string.h>
+/*
+ * File: lists.h
+ * Auth: Nobert Ayesiga
+ */
+
 #include <stdio.h>
-
-#define EXIT_SUCCESS 0
-#define EXIT_FAILURE 1
+#include <stdlib.h>
 
 /**
  * struct dlistint_s - doubly linked list
@@ -34,4 +35,4 @@ int sum_dlistint(dlistint_t *head);
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 
-#endif
+#endif /* LISTS_H */
